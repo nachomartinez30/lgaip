@@ -3,25 +3,25 @@ let lgtaip = {
         "1": "1",
         "2": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX"
             }
         },
         "3": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": {
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)",
@@ -31,25 +31,25 @@ let lgtaip = {
                         "f": "f)",
                         "g": "g)",
                         "h": "h)",
-                        "i": "i)",
+                        "I": "i)",
                         "j": "j)"
                     }
                 },
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV",
-                "xv": "XV",
-                "xvi": "XVI",
-                "xvii": "XVII",
-                "xviii": "XVIII",
-                "xix": "XIX",
-                "xx": "XX",
-                "xxi": "XXI"
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV",
+                "XV": "XV",
+                "XVI": "XVI",
+                "XVII": "XVII",
+                "XVIII": "XVIII",
+                "XIX": "XIX",
+                "XX": "XX",
+                "XXI": "XXI"
             }
         },
         "4": "4",
@@ -58,15 +58,15 @@ let lgtaip = {
         "7": "7",
         "8": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX"
             }
         },
         "9": "9",
@@ -86,20 +86,20 @@ let lgtaip = {
         "23": "23",
         "24": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV"
             }
         },
         "25": "25",
@@ -109,30 +109,30 @@ let lgtaip = {
         "29": "29",
         "30": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V"
             }
         },
         "31": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV",
-                "xv": "XV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV",
+                "XV": "XV"
             }
         },
         "32": "32",
@@ -141,11 +141,11 @@ let lgtaip = {
         "35": "35",
         "36": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V"
             }
         },
         "37": "37",
@@ -154,95 +154,95 @@ let lgtaip = {
         "40": "40",
         "41": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI"
             }
         },
         "42": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV",
-                "xv": "XV",
-                "xvi": "XVI",
-                "xvii": "XVII",
-                "xviii": "XVIII",
-                "xix": "XIX",
-                "xx": "XX",
-                "xxi": "XXI",
-                "xxii": "XXII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV",
+                "XV": "XV",
+                "XVI": "XVI",
+                "XVII": "XVII",
+                "XVIII": "XVIII",
+                "XIX": "XIX",
+                "XX": "XX",
+                "XXI": "XXI",
+                "XXII": "XXII"
             }
         },
         "43": "43",
         "44": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX"
             }
         },
         "45": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII"
             }
         },
         "46": "46",
         "47": "47",
         "48": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII"
             }
         },
         "49": "49",
         "50": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "51": "51",
@@ -250,23 +250,23 @@ let lgtaip = {
         "53": "53",
         "54": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX"
             }
         },
         "55": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "56": "56",
@@ -283,32 +283,32 @@ let lgtaip = {
         "67": "67",
         "68": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI"
             }
         },
         "69": "69",
         "70": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV",
-                "xv": {
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV",
+                "XV": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)",
@@ -318,7 +318,7 @@ let lgtaip = {
                         "f": "f)",
                         "g": "g)",
                         "h": "h)",
-                        "i": "i)",
+                        "I": "i)",
                         "j": "j)",
                         "k": "k)",
                         "l": "l)",
@@ -329,40 +329,40 @@ let lgtaip = {
                         "q": "q)"
                     }
                 },
-                "xvi": "XVI",
-                "xvii": "XVII",
-                "xviii": "XVIII",
-                "xix": "XIX",
-                "xx": "XX",
-                "xxi": "XXI",
-                "xxii": "XXII",
-                "xxiii": "XXIII",
-                "xxiv": "XXIV",
-                "xxv": "XXV",
-                "xxvi": "XXVI",
-                "xxvii": "XXVII",
-                "xxviii": {
+                "XVI": "XVI",
+                "XVII": "XVII",
+                "XVIII": "XVIII",
+                "XIX": "XIX",
+                "XX": "XX",
+                "XXI": "XXI",
+                "XXII": "XXII",
+                "XXIII": "XXIII",
+                "XXIV": "XXIV",
+                "XXV": "XXV",
+                "XXVI": "XXVI",
+                "XXVII": "XXVII",
+                "XXVIII": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)"
                     }
                 },
-                "xxix": "XXIX",
-                "xxx": "XXX",
-                "xxxi": "XXXI",
-                "xxxii": "XXXII",
-                "xxxiii": "XXXIII",
-                "xxxiv": "XXXIV",
-                "xxxv": "XXXV",
-                "xxxvi": "XXXVI",
-                "xxxvii": "XXXVII",
-                "xxxviii": "XXXVIII",
-                "xxxix": "XXXIX"
+                "XXIX": "XXIX",
+                "XXX": "XXX",
+                "XXXI": "XXXI",
+                "XXXII": "XXXII",
+                "XXXIII": "XXXIII",
+                "XXXIV": "XXXIV",
+                "XXXV": "XXXV",
+                "XXXVI": "XXXVI",
+                "XXXVII": "XXXVII",
+                "XXXVIII": "XXXVIII",
+                "XXXIX": "XXXIX"
             }
         },
         "71": {
             "fraccion": {
-                "i": {
+                "I": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)",
@@ -373,7 +373,7 @@ let lgtaip = {
                         "g": "g)"
                     }
                 },
-                "ii": {
+                "II": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)"
@@ -383,35 +383,35 @@ let lgtaip = {
         },
         "72": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV",
-                "xv": "XV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV",
+                "XV": "XV"
             }
         },
         "73": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V"
             }
         },
         "74": {
             "fraccion": {
-                "i": {
+                "I": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)",
@@ -421,7 +421,7 @@ let lgtaip = {
                         "f": "f)",
                         "g": "g)",
                         "h": "h)",
-                        "i": "i)",
+                        "I": "i)",
                         "j": "j)",
                         "k": "k)",
                         "l": "l)",
@@ -429,7 +429,7 @@ let lgtaip = {
                         "n": "n)"
                     }
                 },
-                "ii": {
+                "II": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)",
@@ -439,14 +439,14 @@ let lgtaip = {
                         "f": "f)",
                         "g": "g)",
                         "h": "h)",
-                        "i": "i)",
+                        "I": "i)",
                         "j": "j)",
                         "k": "k)",
                         "l": "l)",
                         "m": "m)"
                     }
                 },
-                "iii": {
+                "III": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)",
@@ -461,66 +461,66 @@ let lgtaip = {
         },
         "75": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX"
             }
         },
         "76": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV",
-                "xv": "XV",
-                "xvi": "XVI",
-                "xvii": "XVII",
-                "xviii": "XVIII",
-                "xix": "XIX",
-                "xx": "XX",
-                "xxi": "XXI",
-                "xxii": "XXII",
-                "xxiii": "XXIII",
-                "xxiv": "XXIV",
-                "xxv": "XXV",
-                "xxvi": "XXVI",
-                "xxvii": "XXVII",
-                "xxviii": "XXVIII",
-                "xxix": "XXIX",
-                "xxx": "XXX"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV",
+                "XV": "XV",
+                "XVI": "XVI",
+                "XVII": "XVII",
+                "XVIII": "XVIII",
+                "XIX": "XIX",
+                "XX": "XX",
+                "XXI": "XXI",
+                "XXII": "XXII",
+                "XXIII": "XXIII",
+                "XXIV": "XXIV",
+                "XXV": "XXV",
+                "XXVI": "XXVI",
+                "XXVII": "XXVII",
+                "XXVIII": "XXVIII",
+                "XXIX": "XXIX",
+                "XXX": "XXX"
             }
         },
         "77": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII"
             }
         },
         "78": {
             "fraccion": {
-                "i": {
+                "I": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)",
@@ -532,36 +532,36 @@ let lgtaip = {
                         "h": "h)"
                     }
                 },
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII"
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII"
             }
         },
         "79": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "80": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "81": "81",
         "82": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "83": "83",
@@ -571,39 +571,39 @@ let lgtaip = {
         "87": "87",
         "88": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "89": "89",
         "90": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "91": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V"
             }
         },
         "92": {
             "fraccion": {
-                "i": {
+                "I": {
                     "inciso": {
                         "a": "a)",
                         "b": "b)"
                     }
                 },
-                "ii": "II"
+                "II": "II"
             }
         },
         "93": "93",
@@ -616,27 +616,27 @@ let lgtaip = {
         "100": "100",
         "101": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "102": "102",
         "103": "103",
         "104": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "105": "105",
         "106": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "107": "107",
@@ -647,26 +647,26 @@ let lgtaip = {
         "112": "112",
         "113": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII"
             }
         },
         "114": "114",
         "115": {
             "fraccion": {
-                "i": "I",
-                "ii": "II"
+                "I": "I",
+                "II": "II"
             }
         },
         "116": "116",
@@ -675,11 +675,11 @@ let lgtaip = {
         "119": "119",
         "120": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V"
             }
         },
         "121": "121",
@@ -687,11 +687,11 @@ let lgtaip = {
         "123": "123",
         "124": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V"
             }
         },
         "125": "125",
@@ -709,48 +709,48 @@ let lgtaip = {
         "137": "137",
         "138": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "139": "139",
         "140": "140",
         "141": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "142": "142",
         "143": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII"
             }
         },
         "144": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII"
             }
         },
         "145": "145",
@@ -759,27 +759,27 @@ let lgtaip = {
         "148": "148",
         "149": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "150": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII"
             }
         },
         "151": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "152": "152",
@@ -787,21 +787,21 @@ let lgtaip = {
         "154": "154",
         "155": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII"
             }
         },
         "156": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "157": "157",
@@ -809,21 +809,21 @@ let lgtaip = {
         "159": "159",
         "160": {
             "fraccion": {
-                "i": "I",
-                "ii": "II"
+                "I": "I",
+                "II": "II"
             }
         },
         "161": "161",
         "162": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII"
             }
         },
         "163": "163",
@@ -835,9 +835,9 @@ let lgtaip = {
         "169": "169",
         "170": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "171": "171",
@@ -849,20 +849,20 @@ let lgtaip = {
         "177": "177",
         "178": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI"
             }
         },
         "179": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV"
             }
         },
         "180": "180",
@@ -872,8 +872,8 @@ let lgtaip = {
         "184": "184",
         "185": {
             "fraccion": {
-                "i": "I",
-                "ii": "II"
+                "I": "I",
+                "II": "II"
             }
         },
         "186": "186",
@@ -890,17 +890,17 @@ let lgtaip = {
         "197": "197",
         "198": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "199": "199",
         "200": "200",
         "201": {
             "fraccion": {
-                "i": "I",
-                "ii": "II"
+                "I": "I",
+                "II": "II"
             }
         },
         "202": "202",
@@ -909,21 +909,21 @@ let lgtaip = {
         "205": "205",
         "206": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III",
-                "iv": "IV",
-                "v": "V",
-                "vi": "VI",
-                "vii": "VII",
-                "viii": "VIII",
-                "ix": "IX",
-                "x": "X",
-                "xi": "XI",
-                "xii": "XII",
-                "xiii": "XIII",
-                "xiv": "XIV",
-                "xv": "XV"
+                "I": "I",
+                "II": "II",
+                "III": "III",
+                "IV": "IV",
+                "V": "V",
+                "VI": "VI",
+                "VII": "VII",
+                "VIII": "VIII",
+                "IX": "IX",
+                "X": "X",
+                "XI": "XI",
+                "XII": "XII",
+                "XIII": "XIII",
+                "XIV": "XIV",
+                "XV": "XV"
             }
         },
         "207": "207",
@@ -935,9 +935,9 @@ let lgtaip = {
         "213": "213",
         "214": {
             "fraccion": {
-                "i": "I",
-                "ii": "II",
-                "iii": "III"
+                "I": "I",
+                "II": "II",
+                "III": "III"
             }
         },
         "215": "215",
@@ -945,13 +945,53 @@ let lgtaip = {
     }
 }
 
-function getValuesLG() {
-    /* SI TIENE FRACCION IMPRIME EL ARTICULO */
+
+function fillArticulos() {
+    let html = '<option value="">--Seleccione un Artículo--</option>';
     Object.keys(lgtaip["articulo"]).forEach(function (article) {
-        if (lgtaip["articulo"][article]["fraccion"])
-            console.log(article);
+        html += `<option value="${article}">${article}</option>`
     });
-   // Object.keys(lgtaip["articulo"][article]['fraccion']).forEach(function (fracc) {
-    //     console.log(fracc);
-    // });
+    $(`#sel_articulo`).html(html)
+}
+
+function fillFracciones(article) {
+    let fraccion = lgtaip["articulo"][article]["fraccion"]
+    let html = '<option value="">--Seleccione una Fracción--</option>';
+    if (fraccion) {
+        /* si el articulo tiene fracciones las muestra */
+        $(`#div_fracciones`).removeAttr('hidden')
+        Object.keys(fraccion).forEach(function (fracc) {
+            if (fraccion) {
+                html += `<option value="${fracc}">${fracc}</option>`
+            }
+        });
+    } else {
+        $(`#div_fracciones`).attr('hidden', 'hidden')
+    }
+    $(`#div_inciso`).attr('hidden', 'hidden')
+    $(`#sel_fracciones`).html(html)
+}
+
+function fillInciso(article, fraction) {
+    let inciso = lgtaip["articulo"][article]["fraccion"][fraction]['inciso']
+    let html = '<option value="">--Seleccione un Inciso--</option>';
+    if (inciso) {
+        /* si el articulo tiene fracciones las muestra */
+        $(`#div_inciso`).removeAttr('hidden')
+        Object.keys(inciso).forEach(function (inci) {
+            if (inciso) {
+                html += `<option value="${inci}">${inci}</option>`
+            }
+        });
+    } else {
+        $(`#div_inciso`).attr('hidden', 'hidden')
+    }
+    $(`#sel_inciso`).html(html)
+}
+
+function getLink() {
+    let articulo = $(`#sel_articulo`).val();
+    let fraccion = $(`#sel_fraccion`).val();
+    let inciso = $(`#sel_inciso`).val();
+    debugger
 }
