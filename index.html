@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- bootstrap 4 -->
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="lgtaip.js"></script>
+    <script src="lgtaip.min.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.min.css" />
     <title>LGAIP</title>
 </head>
 
@@ -21,6 +22,10 @@
                 Este portal te permitirá generar las ligas necesarias para cargar al
                 servidor del SIPOT
             </p>
+            <div class="alert alert-dismissible alert-warning">
+                <h4 class="alert-heading">LIGA:</h4>
+                <div id="div_liga"></div>
+            </div>
             <hr class="my-4" />
             <p>
                 Esta estructura esta basada en la Ley General de Transparencia y
@@ -28,37 +33,103 @@
             </p>
             <!-- SELECT -->
             <div class="form-group row">
-                <label for="sel_articulo" class="col-lg-6 col-form-label">Articulo</label>
+                <label for="sel_articulo" class="col-lg-2 col-form-label etiquetas">Articulo</label>
                 <div class="col-sm-6">
-                    <select name="articulo" id="sel_articulo" class="form-control" onchange="fillFracciones(this.value)">
+                    <select name="articulo" id="sel_articulo" class="form-control"
+                        onchange="fillFracciones(this.value)">
                         <option value="">--Seleccione un Artículo--</option>
                     </select>
                 </div>
             </div>
             <div id="div_fracciones" class="form-group row" hidden>
-                <label for="sel_fracciones" class="col-lg-6 col-form-label">Fracciones</label>
+                <label for="sel_fracciones" class="col-lg-2 col-form-label etiquetas">Fracciones</label>
                 <div class="col-sm-6">
-                    <select name="fracciones" id="sel_fracciones" class="form-control" onchange="fillInciso($('#sel_articulo').val(),this.value)">
+                    <select name="fracciones" id="sel_fracciones" class="form-control"
+                        onchange="fillInciso($('#sel_articulo').val(),this.value)">
                         <option value="">--Seleccione una Fracción--</option>
                     </select>
                 </div>
             </div>
             <div id="div_inciso" class="form-group row" hidden>
-                <label for="sel_inciso" class="col-lg-6 col-form-label">Inciso</label>
+                <h1 for="sel_inciso" class="col-lg-2 col-form-label etiquetas">Inciso</h1>
                 <div class="col-sm-6">
                     <select name="inciso" id="sel_inciso" class="form-control">
                         <option value="">--Seleccione una Fracción--</option>
                     </select>
                 </div>
             </div>
+            <div id="div_" class="form-group row">
+                <label for="txt_trimestre" class="col-lg-2 col-form-label etiquetas">Trimestre</label>
+                <div class="col-sm-6">
+                    <input class="form-control" type="number" name="trimestre" id="txt_trimestre" max="4" min="1">
+                </div>
+            </div>
+            <div id="div_area" class="form-group row">
+                <label for="txt_area" class="col-lg-2 col-form-label etiquetas">Área</label>
+                <div class="col-sm-6">
+                    <select class="form-control" type="text" name="area" id="txt_area" onchange="checkArea(this.value)">
+                        <option value="">--Selecciones un Área--</option>
+                        <option value="UVS">UVS-Unidad Vinculacion Sectorial</option>
+                        <option value="UOR">UOR-Unidad Operacion Regional</option>
+                        <option value="UEDT">UEDT-Unidad Educacion Desarrollo Tecnologico</option>
+                        <option value="UAIFF">UAIFF-Unidad Asuntos Internacionales Fomento Financiero</option>
+                        <option value="UAF">UAF-Unidad Administración Finanzas</option>
+                        <option value="OIC">OIC-Organo Interno Control</option>
+                        <option value="DG">DG-Direccion General</option>
+                        <option value="CGJ">CGJ-Coordinacion General Juridica</option>
+                        <option value="CGPP">CGPP-Coordinacion General Produccion Productividad</option>
+                        <option value="CGPI">CGPI-Coordinacion General Planeacion Informacion</option>
+                        <option value="CGCR">CGCR-Coordinacion General Conservacion Restauracion</option>
+                        <option value="CAPE">CAPE-Coordinacion Apoyo Proyectos Especiales</option>
+                    </select>
+                </div>
+            </div>
+            <div id="div_gerencia" class="form-group row">
+                <label for="txt_gerencia" class="col-lg-2 col-form-label etiquetas">Gerencia</label>
+                <div class="col-sm-6">
+                    <select class="form-control" type="text" name="gerencia" id="txt_gerencia">
+                        <option value="">--Seleccione  una gerencia--</option>
+                        <option value="GTIC">GTIC-Gerencia Tecnologias Informacion Comunicacion</option>
+                        <option value="GSNMF">GSNMF-Gerencia Sistema Nacional Monitoreo Forestal</option>
+                        <option value="GSABCB">GSADBCB-Gerencia Servicios Ambientales Del Bosque Conservacion Biodiversidad</option>
+                        <option value="GS">GS-Gerencia Sanidad</option>
+                        <option value="GRRCH">GRRCH-Gerencia Reforestacion Restauracion Cuencas Hidrograficas</option>
+                        <option value="GRM">GRM-Gerencia Recursos Materiales</option>
+                        <option value="GRH">GRH-Gerencia Recursos Humanos</option>
+                        <option value="GPP">GPP-Gerencia Programación Presupuesto</option>
+                        <option value="GPFC">GPFC-Gerencia Plantaciones Forestales Comerciales</option>
+                        <option value="GPE">GPE-Gerencia Planeacion Evaluacion</option>
+                        <option value="GNC">GNC-Gerencia Normatividad Consulta</option>
+                        <option value="GMFC">GMFC-Gerencia Manejo Forestal Comunitario</option>
+                        <option value="GMF">GMDF-Gerencia Manejo Del Fuego</option>
+                        <option value="GLCAJ">GLCAJ-Gerencia Lo Contencioso Administrativo Judicial</option>
+                        <option value="GIF">GIF-Gerencia Informacion Forestal</option>
+                        <option value="GF">GF-Gerencia Financiamiento</option>
+                        <option value="GDTT">GDTT-Gerencia Desarrollo Transferencia Tecnologia</option>
+                        <option value="GCI">GCI-Gerencia Cooperacion Internacional</option>
+                        <option value="GCP">GCP-Gerencia Comunicacion Produccion</option>
+                        <option value="GBCC">GBCC-Gerencia Bosques Cambio Climatico</option>
+                        <option value="GATM">GATM-Gerencia Abasto Transformacion Mercados</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="txt_gerencia" class="col-lg-2 col-form-label etiquetas">Otro</label>
+                <div class="col-sm-6">
+                    <input class="form-control" type="text" name="otro" id="txt_otro"
+                        placeholder="Ej. 1_convocatoria/ICF">
+                </div>
+            </div>
             <!-- SELECT -->
         </div>
-        <button type="button" onclick="getLink()" class="btn btn-warning">Obtener Enlace</button>
+        <div class="container-fluid" align="right">
+            <button type="button" onclick="getLink()" class="btn btn-danger">Obtener Enlace</button>
+        </div>
     </div>
     </div>
 </body>
 <script>
-    $(document).ready(()=>{
+    $(document).ready(() => {
         fillArticulos()
     });
 </script>

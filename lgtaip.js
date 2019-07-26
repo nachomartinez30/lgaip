@@ -990,8 +990,58 @@ function fillInciso(article, fraction) {
 }
 
 function getLink() {
+    /* TODO falta terminar links*/
+    if (validaciones()) {
+        let articulo = $(`#sel_articulo`).val();
+        let trimestre = $(`#txt_trimestre`).val();
+        let area = $(`#txt_area`).val();
+
+        let inciso = ($(`#sel_inciso`).val()) ? '/inci_' + $(`#sel_inciso`).val() : '';
+        let fraccion = ($(`#sel_fracciones`).val()) ? '/fra_' + $(`#sel_fracciones`).val() : '';
+        let gerencia = ($(`#txt_gerencia`).val()) ? '/' + $(`#txt_gerencia`).val() : '';
+        let otro = ($(`#txt_otro`).val()) ? '/' + $(`#txt_otro`).val() : ''
+
+
+        // /FilesConafor/LGTAIP/2019/art_70/fra_XXVIII/inci_A/UAF/GRM/ICTP/1T
+        let path = `/FilesConafor/LGTAIP/2019/` +
+            `art_${articulo}${fraccion}${inciso}` +
+            `/${trimestre}T/${area}${gerencia}${otro}`
+
+        $(`#div_liga`).html(path)
+
+        $('#sel_articulo').removeClass('faltante')
+        $('#txt_area').removeClass('faltante')
+        $('#txt_trimestre').removeClass('faltante')
+    } else {
+        $('#sel_articulo').addClass('faltante')
+        $('#txt_area').addClass('faltante')
+        $('#txt_trimestre').addClass('faltante')
+        alert('deve elegir un articulo un trimestre y un area')
+    }
+}
+
+function checkArea(area) {
+    if (area == "DG" || area == "OIC") {
+        $(`#div_gerencia`).attr('hidden', 'hidden')
+        $('#txt_gerencia').val('')
+    } else {
+        $(`#div_gerencia`).removeAttr('hidden')
+
+    }
+}
+
+function validaciones() {
+    let res = false;
     let articulo = $(`#sel_articulo`).val();
-    let fraccion = $(`#sel_fraccion`).val();
-    let inciso = $(`#sel_inciso`).val();
-    debugger
+    let trimestre = $(`#txt_trimestre`).val();
+    let area = $(`#txt_area`).val();
+
+    if (articulo) {
+        if (trimestre) {
+            if (area) {
+                res = true;
+            }
+        }
+    }
+    return res;
 }

@@ -1,0 +1,9 @@
+.etiquetas{
+    padding-left: 20px;
+    font-size: 26px;
+}
+
+.faltante{
+    border-color: #dc3545;
+    border-width: 3px;
+}
