@@ -19,8 +19,8 @@
         <div class="jumbotron">
             <h1 class="display-3">Ligas SIPOT</h1>
             <p class="lead">
-                Este portal te permitirá generar las ligas necesarias para cargar al
-                servidor del SIPOT
+                Este portal te permitirá generar las ligas necesarias para solicitar la cargar al
+                servidor interno de archivos del SIPOT
             </p>
             <div class="alert alert-dismissible alert-warning">
                 <h4 class="alert-heading">LIGA:</h4>
@@ -33,7 +33,7 @@
             </p>
             <!-- SELECT -->
             <div class="form-group row">
-                <label for="sel_articulo" class="col-lg-2 col-form-label etiquetas">Articulo</label>
+                <label for="sel_articulo" class="col-lg-2 col-form-label etiquetas">Artículo</label>
                 <div class="col-sm-6">
                     <select name="articulo" id="sel_articulo" class="form-control"
                         onchange="fillFracciones(this.value)">
@@ -61,7 +61,12 @@
             <div id="div_" class="form-group row">
                 <label for="txt_trimestre" class="col-lg-2 col-form-label etiquetas">Trimestre</label>
                 <div class="col-sm-6">
-                    <input class="form-control" type="number" name="trimestre" id="txt_trimestre" max="4" min="1">
+                    <select class="form-control" type="number" name="trimestre" id="txt_trimestre" max="4" min="1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
                 </div>
             </div>
             <div id="div_area" class="form-group row">
