@@ -990,7 +990,6 @@ function fillInciso(article, fraction) {
 }
 
 function getLink() {
-    /* TODO falta terminar links*/
     if (validaciones()) {
         let articulo = $(`#sel_articulo`).val();
         let trimestre = $(`#txt_trimestre`).val();
@@ -1002,7 +1001,6 @@ function getLink() {
         let otro = ($(`#txt_otro`).val()) ? '/' + $(`#txt_otro`).val() : ''
 
 
-        // /FilesConafor/LGTAIP/2019/art_70/fra_XXVIII/inci_A/UAF/GRM/ICTP/1T
         let path = `/FilesConafor/LGTAIP/2019/` +
             `art_${articulo}${fraccion}${inciso}` +
             `/${trimestre}T/${area}${gerencia}${otro}`
@@ -1044,4 +1042,23 @@ function validaciones() {
         }
     }
     return res;
+}
+
+function testFiles(files) {
+    let regex = new RegExp("[a-zA-Z,_,-]{1,20}[.][a-zA-Z]{2,3}");
+    let porCorregir = [];
+    let html = '';
+
+    Object.values(files).forEach((str) => {
+        /* SI NO CUENTA CON LA ETSRUCTURA AÑADE EL ARCHIVO */
+        if (!regex.test(str['name'])) {
+            porCorregir.push(str['name'])
+            html += `<li>${str['name']}</li>`
+        }
+    });
+
+    if (porCorregir.length > 0) {
+        $(`#div_error_files`).removeAttr('hidden')
+        $(`#div_error_files`).html(`<h3>Por favor, corrija el nombre de:</h3> ${html}`)
+    }
 }

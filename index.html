@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- bootstrap 4 -->
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="lgtaip.min.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.min.css" />
+    <script src="lgtaip.min.js"></script>
     <title>LGAIP</title>
 </head>
 
@@ -25,6 +25,17 @@
             <div class="alert alert-dismissible alert-warning">
                 <h4 class="alert-heading">LIGA:</h4>
                 <div id="div_liga"></div>
+            </div>
+            <div class="container">
+                <div class="form-group row">
+                    <label for="sel_articulo" class="col-lg-2 col-form-label">Revisar Archivos</label>
+                    <div class="col-sm-6">
+                        <input class="form-control-file" type="file" name="articulo" id="input_files" multiple>
+                        <button class="btn btn-success"
+                            onclick="testFiles(document.getElementById('input_files').files)">Revisar</button>
+                    </div>
+                </div>
+                <div hidden class="alert alert-dismissible alert-danger" id="div_error_files"></div>
             </div>
             <hr class="my-4" />
             <p>
