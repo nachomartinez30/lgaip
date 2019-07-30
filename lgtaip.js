@@ -1006,7 +1006,7 @@ function getLink() {
             `/${trimestre}T/${area}${gerencia}${otro}`
 
         $(`#div_liga`).html(path)
-
+        $(`#alert_liga`).removeClass("hide");
         $('#sel_articulo').removeClass('faltante')
         $('#txt_area').removeClass('faltante')
         $('#txt_trimestre').removeClass('faltante')
@@ -1045,13 +1045,15 @@ function validaciones() {
 }
 
 function testFiles(files) {
-    let regex = new RegExp("[a-zA-Z,_,-]{1,20}[.][a-zA-Z]{2,3}");
+    let regex = new RegExp(/á|é|í|ó|ú|\s/, "i");
     let porCorregir = [];
     let html = '';
 
     Object.values(files).forEach((str) => {
-        /* SI NO CUENTA CON LA ETSRUCTURA AÑADE EL ARCHIVO */
-        if (!regex.test(str['name'])) {
+        /* SI TIENE UN ESPACIO O ACENTOS NO ES VALIDO */
+        let estructuraNoValida = (regex.test(str['name'])) ? true : false
+        let tamanioNoValido = (str['name'].length > 30) ? true : false
+        if (estructuraNoValida || tamanioNoValido) {
             porCorregir.push(str['name'])
             html += `<li>${str['name']}</li>`
         }
@@ -1060,5 +1062,14 @@ function testFiles(files) {
     if (porCorregir.length > 0) {
         $(`#div_error_files`).removeAttr('hidden')
         $(`#div_error_files`).html(`<h3>Por favor, corrija el nombre de:</h3> ${html}`)
+
+        $("#div_estructura").addClass("hide")
+        $("#div_button").addClass("hide")
+        $(`#alert_liga`).addClass("hide");
+    } else {
+        $("#div_estructura").removeClass("hide")
+        $("#div_error_files").addClass("hide")
+        $("#div_button").removeClass("hide")
+
     }
 }
